@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudioConverter", "AudioConverter\AudioConverter.csproj", "{EA2622A0-6DFC-474A-A6EF-1B7B5CCEC111}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudioConverter.Tests", "AudioConverter.Tests\AudioConverter.Tests.csproj", "{C0C87029-3494-4497-A175-EDB91D235E7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EA2622A0-6DFC-474A-A6EF-1B7B5CCEC111}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA2622A0-6DFC-474A-A6EF-1B7B5CCEC111}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA2622A0-6DFC-474A-A6EF-1B7B5CCEC111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C87029-3494-4497-A175-EDB91D235E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C87029-3494-4497-A175-EDB91D235E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C87029-3494-4497-A175-EDB91D235E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C87029-3494-4497-A175-EDB91D235E7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

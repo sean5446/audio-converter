@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace AudioConverter
 {
 
-    class FileProcessor
+    public class FileProcessor
     {
         private string vlcPath;
 
@@ -119,9 +119,9 @@ namespace AudioConverter
             process.WaitForExit();
         }
 
-        private static string GetDestFileName(string filePath, string destPath, string extension)
+        public static string GetDestFileName(string filePath, string destPath, string extension)
         {
-            string fileName = destPath + @"\" + Path.GetFileNameWithoutExtension(filePath) + "." + extension;
+            string fileName = destPath + Path.DirectorySeparatorChar + Path.GetFileNameWithoutExtension(filePath) + "." + extension;
             // these characters seem to cause problems with vlc command
             return fileName.Replace(",", "").Replace("'", "").Replace("\"", "");
         }
